@@ -1,0 +1,18 @@
+.output-container, 
+.buttons {
+    display: flex;
+    justify-content: center;
+}
+
+.output {
+    width: 50%;
+    margin: 100px;
+    padding: 10px;
+    border: 1px solid black;
+    text-align: center;
+}
+
+.button {
+    margin: 0 25px;
+    padding: 5px;
+}
