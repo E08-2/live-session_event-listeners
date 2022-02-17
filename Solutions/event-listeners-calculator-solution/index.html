@@ -1,0 +1,111 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+  <link rel="stylesheet" href="styles.css" />
+  <title>Calculator X</title>
+</head>
+
+<body>
+  <div class="header">
+    <h1>CALCULATION X</h1>
+  </div>
+
+  <main>
+    <div class="container">
+      <div>
+        <h2>Basic Arithmetic</h2>
+      </div>
+      <form>
+
+        <!-- * 1. ADDITION * -->
+
+        <div class="row">
+          <div class="col">
+            <input id="add_1" type="number" value="0" step="1" />
+          </div>
+          <span class="operator">+</span>
+          <div class="col">
+            <input id="add_2" type="number" value="0" step="1" />
+          </div>
+          <span class="operator">=</span>
+          <div class="col">
+            <input id="add_result" type="number" readonly value="0" />
+          </div>
+        </div>
+
+        <!-- * 2. SUBTRACTION * -->
+
+        <div class="row">
+          <div class="col">
+            <input type="number" value="0" step="1" />
+          </div>
+          <span class="operator">-</span>
+          <div class="col">
+            <input type="number" value="0" step="1" />
+          </div>
+          <span class="operator">=</span>
+          <div class="col">
+            <input type="number" readonly value="0" />
+          </div>
+        </div>
+
+        <!-- * 3. MULTIPLICATION * -->
+
+        <div class="row">
+          <div class="col">
+            <input type="number" value="0" step="1" />
+          </div>
+          <span class="operator">x</span>
+          <div class="col">
+            <input type="number" value="0" step="1" />
+          </div>
+          <span class="operator">=</span>
+          <div class="col">
+            <input type="number" readonly value="0" />
+          </div>
+        </div>
+
+        <!-- * 4. DIVISION * -->
+
+        <div class="row">
+          <div class="col">
+            <input id="division_1" type="number" value="0" step="1" />
+          </div>
+          <span class="operator">÷</span>
+          <div class="col">
+            <input id="division_2" type="number" value="0" step="1" />
+          </div>
+          <span class="operator">=</span>
+          <div class="col">
+            <input id="division_result" type="number" readonly value="0" />
+          </div>
+        </div>
+
+        <h2>Special operations</h2>
+        <div>Modulo</div>
+
+        <!-- * 5. MODULO  * -->
+
+        <div class="row">
+          <div class="col">
+            <input type="number" value="0" step="1" />
+          </div>
+          <span class="operator">%</span>
+          <div class="col">
+            <input type="number" value="0" step="1" />
+          </div>
+          <span class="operator">=</span>
+          <div class="col">
+            <input type="number" readonly value="0" />
+          </div>
+        </div>
+    </div>
+  </main>
+
+  <script src="index.js"></script>
+</body>
+
+</html>
